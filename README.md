@@ -1,6 +1,7 @@
 # graphGL-basic
 
 Qeury expample:
+```
 query {
   user(id:"25"){
     id
@@ -8,8 +9,9 @@ query {
     age
   }
 }
-
+```
 Mutation expample:
+```
 mutation{ 
   editUser(id: "25", firstName:"sid"){
     firstName
@@ -17,3 +19,4 @@ mutation{
   }
 
 }
+```
